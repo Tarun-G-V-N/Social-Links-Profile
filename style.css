@@ -1,0 +1,68 @@
+@font-face{
+    font-family: "boldFont";
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+
+    font-family: "regularFont";
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+
+    font-family: "semiBoldFont";
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+
+    font-family: "variableFont";
+    src: url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 550px;
+    border-radius: 15px;
+    margin-top: 5%;
+}
+
+.container img{
+    border-radius: 50%;
+    height: 90px;
+}
+
+.container h2{
+    font-family: "variableFont";
+}
+
+.container h5{
+    color: hsl(75, 94%, 57%);
+    margin-top: 5px;
+    font-family: "variableFont";
+}
+
+.container p{
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.container .socialLink{
+    background-color: hsl(0, 0%, 20%);
+    text-align: center;
+    width: 280px;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    font-family: "variableFont";
+    font-weight: 600;
+    font-size: medium;
+}
+
+.container .socialLink:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
